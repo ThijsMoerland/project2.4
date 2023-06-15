@@ -1,0 +1,28 @@
+
+#logo {
+    border-radius: 10px;
+    width: 200px;
+  }
+  
+  #header {
+    background-color: rgb(208, 45, 125);
+    display: flex;
+    padding: 20px;
+    position:fixed;
+    width: 100%;
+  }
+  
+  .navbar {
+    margin-left: auto;
+  }
+  
+
+.grey{
+  color: black;
+  background-color: rgb(225, 225, 225);
+  margin-left: 20px;
+}
+
+.grey:hover{
+  background-color: rgb(154, 154, 154);
+}

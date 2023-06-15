@@ -1,0 +1,25 @@
+#line {
+    border-bottom: 1px solid black;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 5%;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  #arrowUp {
+    padding-top: 10px;
+  }
+  
+  #footer {
+    background-color: rgb(158, 153, 153);
+    height: 130px;
+    width: 100%;
+    bottom: 0;
+  }

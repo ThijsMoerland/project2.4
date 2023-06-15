@@ -1,0 +1,47 @@
+#letterType2 {
+  margin-top: 50px;
+}
+
+.loginBtn,
+.loginBtn:hover {
+  margin-top: 25px;
+  font-size: 15px;
+  background-color: rgb(15, 108, 190);
+  margin-left: auto;
+  color: white;
+  border-radius: 0;
+  border: 0px;
+}
+
+.loginBtn:hover{
+    background-color: rgb(12, 97, 172);
+}
+
+.imgcontainer,
+.containerLogin {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#logIn {
+  margin-top: 250px;
+}
+
+.containerLogin {
+  padding: 35px;
+  position: absolute;
+  left: 35%;
+  background-color: rgb(192, 192, 192);
+}
+
+body {
+  /* background-image: url("../images/pexels-photo-5935254.jpeg"); */
+  background-size: 100%;
+}
+
+#register{
+  margin: 0 auto;
+}
+

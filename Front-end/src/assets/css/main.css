@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: rgb(255, 237, 237);
+  min-height: 475px;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .product-card img {
+    display: block;
+    width: 85px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    height: auto;
+    float: left;
+  }
+}
+
+/* button stylen */
+.divBtn {
+  display: flex;
+  justify-content: center;
+}
+
+/* titel  */
+.name {
+  color: rgb(89, 0, 89);
+  font-size: 50px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+/* letters paars */
+.letterType {
+  color: rgb(89, 0, 89);
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* input fields  */
+.input {
+  width: 350px;
+  height: 30px;
+}
+
+/* wit hover paars button */
+.mainButton:hover,
+.mainButton {
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 3px;
+  padding: 2px 20px 2px 20px;
+  background-color: rgb(255, 240, 255);
+  border-color: rgb(89, 0, 89);
+  color: rgb(89, 0, 89);
+  font-weight: bold;
+  width: fit-content;
+}
+
+.mainButton:hover {
+  background-color: rgb(89, 0, 89);
+  color: rgb(255, 244, 255);
+}
+
+/* paars hover wit button */
+.mainButtonReverse:hover,
+.mainButtonReverse {
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 3px;
+  padding: 2px 20px 2px 20px;
+  background-color: rgb(89, 0, 89);
+  border-color: rgb(89, 0, 89);
+  color: rgb(255, 244, 255);
+  font-weight: bold;
+}
+
+.mainButtonReverse:hover {
+  background-color: rgb(255, 244, 255);
+  color: rgb(89, 0, 89);
+}
+
+#voidDiv60 {
+  display: flex;
+  flex-direction: column;
+  height: 510px;
+  border-radius: 30px;
+  width: 56%;
+}
+
+#voidDiv30 {
+  display: flex;
+  flex-direction: column;
+  height: 510px;
+  border-radius: 30px;
+  width: 28%;
+}
